@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99aefff78f4deda4fbf0653ef5cab427, type: 3}
+  m_Name: NPCData
+  m_EditorClassIdentifier: 
+  dialogueFrases:
+  - Pulsa A para continuar
+  - 'Hola, vas a tener que buscar un obejeto por todo este espacio '
+  - 'Pista: Mira para arriba y vas a ver un proyector'
+  - 'Con E agarras la silla y con la R la sueltas '
+  - Sigues sin encontrarlo.
+  - Ya hablamos
+  hasTalked: 0
