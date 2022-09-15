@@ -20,7 +20,7 @@ public class DialogeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A) && hasTalked == false)
+        if (Input.GetKeyDown(KeyCode.Q) && hasTalked == false)
         {
             NextFrase();
         }   
@@ -36,12 +36,12 @@ public class DialogeManager : MonoBehaviour
             if (!hasTalked)
             {
                 //al entrar activa la UI de dialogo
-                textoDelDialogo.text = "Pulsa A para continuar";
+                textoDelDialogo.text = "Pulsa Q para hablar";
             }
 
             else
             {
-                textoDelDialogo.text = "Hola, vas a tener que buscar un obejeto por todo este espacio. ";
+                textoDelDialogo.text = "Hola, vas a tener que buscar¿¡Qué es todo este desorden!? ";
             }   
           
 

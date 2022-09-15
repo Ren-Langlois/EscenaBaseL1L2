@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: NPCData
   m_EditorClassIdentifier: 
   dialogueFrases:
-  - Pulsa A para continuar
-  - 'Hola, vas a tener que buscar un obejeto por todo este espacio '
-  - 'Pista: Mira para arriba y vas a ver un proyector'
-  - 'Con E agarras la silla y con la R la sueltas '
-  - Sigues sin encontrarlo.
-  - Ya hablamos
+  - Pulsa Q para hablar
+  - "\xBF\xA1Qu\xE9 es todo este desorden!?"
+  - Tenes que guardar las net
+  - Con E tenes que agarrarlas y llevarlas hasta el carrito
+  - "Rapido! Tenes un minuto\xA1"
+  - Ya te dije todo
   hasTalked: 0
