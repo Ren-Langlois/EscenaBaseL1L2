@@ -9,6 +9,8 @@ TagManager:
   - NPC
   - ground
   - NUMERO
+  - Net
+  - CarroNet
   layers:
   - Default
   - TransparentFX

@@ -35,7 +35,7 @@ public class AgarrarObjeto : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Silla"))
+        if (other.gameObject.CompareTag("Net"))
         {
             if (Input.GetKey("e") && pickedObject == null)
             {
