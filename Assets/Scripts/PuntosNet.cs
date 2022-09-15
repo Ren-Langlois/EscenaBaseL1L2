@@ -8,8 +8,9 @@ public class PuntosNet : MonoBehaviour
     public void OnTriggerEnter(Collider Other)
     {
         if (Other.tag == "Carro")
+        {
             Destroy(gameObject);
-        puntos += 1;
-
+            puntos += 1;
+        }
     }
 }

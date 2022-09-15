@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class ManipularObjetos : MonoBehaviour
 {
-    [SerializeField] GameObject[] sillas;
+    [SerializeField] GameObject[] Net;
     
     // Start is called before the first frame update
     void Start()
     {
-        sillas = GameObject.FindGameObjectsWithTag("Silla");
+        Net = GameObject.FindGameObjectsWithTag("Net");
     }
 
     // Update is called once per frame
@@ -25,25 +25,25 @@ public class ManipularObjetos : MonoBehaviour
 
     void DesactivarElementosDelArray()
     {
-        for (int i = 0; i < sillas.Length; i++)
+        for (int i = 0; i < Net.Length; i++)
         {
-            sillas[i].SetActive(false);
+            Net[i].SetActive(false);
         }
     }
 
     void AgregarRBAElementosDelArray()
     {
-        for (int i = 0; i < sillas.Length; i++)
+        for (int i = 0; i < Net.Length; i++)
         {        
-            sillas[i].AddComponent<Rigidbody>();
+            Net[i].AddComponent<Rigidbody>();
         }        
     }
 
     void AgregarColliderAElementosDelArray()
     {
-        for (int i = 0; i < sillas.Length; i++)
+        for (int i = 0; i < Net.Length; i++)
         {
-            sillas[i].AddComponent<BoxCollider>();
+            Net[i].AddComponent<BoxCollider>();
         }
     }
 
