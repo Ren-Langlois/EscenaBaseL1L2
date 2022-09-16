@@ -9,7 +9,7 @@ public class DialogeManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoDelDialogo;
     [SerializeField] string[] frasesDialogo;
     [SerializeField] int posicionFrase;
-    [SerializeField] bool hasTalked;
+    public bool hasTalked;
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +56,7 @@ public class DialogeManager : MonoBehaviour
             dialogueUI.SetActive(false);
         }
     }
+    public int ayuda = 0;
 
     void NextFrase()
     {
@@ -64,9 +65,9 @@ public class DialogeManager : MonoBehaviour
             textoDelDialogo.text = frasesDialogo[posicionFrase];
             posicionFrase++;
         }
-
         else
         {
+            ayuda += 1;
             dialogueUI.SetActive(false);
             hasTalked = true;
         }

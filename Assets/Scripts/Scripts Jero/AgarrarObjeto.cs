@@ -8,7 +8,7 @@ public class AgarrarObjeto : MonoBehaviour
 
     private GameObject pickedObject = null;
     
-
+    int puntaje =  -1;
 
 
 
@@ -48,6 +48,8 @@ public class AgarrarObjeto : MonoBehaviour
                 other.gameObject.transform.SetParent(ManoPoint.gameObject.transform);
 
                 pickedObject = other.gameObject;
+
+
                                                                           
             }
 
